@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+  </head>
+  <body>
+    <section class="firstSection">
+      <div class="template">
+        <div class="timer"></div>
+        <img src="img/Prostokąt_17.jpg" />
+      </div>
+    </section>
+    <section class="secondSection displayFlex">
+      <div class="secondSectionOne displayFlex">
+        <img src="img/clock.png" />
+        <p class="secondSectionText">
+          produkty na godzine <span class="bold">10:00</span>
+        </p>
+      </div>
+      <div class="secondSectionTwo displayFlex">
+        <img src="img/warning.png" />
+        <p class="secondSectionTextTwo">
+          Akcja "Gorący Czwartek" nie łączy się z innymi promocjami
+        </p>
+      </div>
+    </section>
+    <section class="thirdSection">
+      <div class="selectItemsPage">
+        <button class="reset">Resetuj widok</button>
+        <select class="itemsPage" title="Wyników na stronie">
+          <option value="two">2</option>
+          <option value="four">4</option>
+          <option value="eight">8</option>
+        </select>
+        <p>Widok</p>
+      </div>
+    </section>
+    <div class="users-list"></div>
+
+    <script type="text/javascript" src="data.json"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

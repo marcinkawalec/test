@@ -1,0 +1,253 @@
+@font-face {
+  font-family: "Gotham Book";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Book"), url("GOTHAMBOOK.woff") format("woff");
+}
+body {
+  margin: 10px;
+  padding: 0px;
+  font-family: "Gotham Book";
+}
+.displayFlex {
+  display: flex;
+}
+.bold {
+  font-weight: bold;
+}
+.textCenter {
+  text-align: center;
+}
+.template img {
+  width: 100%;
+  height: 100%;
+}
+.secondSection {
+  justify-content: space-between;
+  margin-top: 35px;
+  align-items: center;
+}
+.secondSectionOne.displayFlex > img {
+  width: 20px;
+  height: 26px;
+  padding-top: 15px;
+  padding-right: 20px;
+}
+.secondSectionTwo.displayFlex > img {
+  width: 26px;
+  height: 26px;
+  padding-top: 8px;
+}
+.secondSectionText {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.secondSectionTextTwo {
+  font-size: 14px;
+}
+.selectItemsPage,
+.reset {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+body > section.thirdSection > div > p {
+  padding-right: 10px;
+}
+.product {
+  width: 22%;
+  height: 420px;
+  border: 1px solid #ebebeb;
+}
+.productSavings {
+  text-align: center;
+  float: right;
+  width: 176px;
+  height: 37px;
+  line-height: 39px;
+  border: 1px solid #ff0000;
+  color: #ff0000;
+  font-size: 15px;
+  margin-top: -22px;
+  margin-right: -1px;
+}
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.product {
+  width: 100%;
+  margin: 15px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.product .items-left {
+  width: 100%;
+  padding: 5px;
+}
+
+.product .promoprice {
+  border: 1px solid red;
+  color: red;
+  width: 55%;
+  padding-top: 10px;
+}
+
+.product .promoprice span:last-child {
+  display: block;
+  font-weight: bold;
+  width: 150px;
+}
+
+.product .image img {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+.image {
+  margin-bottom: 90px;
+}
+.priceBothLeft {
+  padding: 8px;
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.priceBothRight {
+  display: block;
+  font-weight: normal;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #ddd;
+  text-decoration-color: #ddd;
+}
+
+.product .name-model {
+  font-size: 11px;
+  text-align: justify;
+}
+
+.product .group {
+  color: #bbb;
+  font-size: 10px;
+  text-align: left;
+}
+.priceBoth {
+  align-items: center;
+}
+.users-list {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.products {
+  width: 35%;
+  height: 150px;
+}
+.marginBottom300 {
+  margin-bottom: 340px;
+}
+.four {
+  width: 24%;
+}
+
+.eight {
+  width: 12%;
+}
+@media (max-width: 550px) {
+  .product {
+    font-size: 8px;
+  }
+  .secondSectionOne > p {
+    font-size: 8px;
+  }
+  .secondSectionTwo > p {
+    font-size: 8px;
+  }
+  body > section.thirdSection > div > button,
+  body > section.thirdSection > div > select,
+  body > section.thirdSection > div > p {
+    font-size: 8px;
+  }
+}
+@media (max-width: 450px) {
+  .promoprice > span {
+    margin-left: -20px;
+  }
+  .priceBothLeft {
+    font-size: 8px;
+  }
+  .product {
+    height: 340px;
+  }
+  .marginBottom300 {
+    margin-bottom: 240px;
+  }
+}
+@media (max-width: 320px) {
+  .promoprice > span.spanOne {
+    margin-left: 0px;
+  }
+  .promoprice > span.spanTwo {
+    margin-left: -40px;
+  }
+  .secondSectionTwo.displayFlex > img,
+  .secondSectionOne.displayFlex > img {
+    width: 15px;
+    height: 15px;
+    padding-top: 5px;
+  }
+}
+@media (min-width: 552px) {
+  .promoprice > span {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .priceBothLeft {
+    font-size: 8px;
+  }
+  .product {
+    height: 400px;
+  }
+  .marginBottom300 {
+    margin-bottom: 300px;
+  }
+}
+@media (min-width: 900px) {
+  .promoprice > span.One {
+    margin-left: -20px;
+  }
+  .priceBothLeft {
+    font-size: 8px;
+  }
+  .product {
+    height: 500px;
+  }
+  .marginBottom300 {
+    margin-bottom: 400px;
+  }
+}
+@media (min-width: 160px) {
+  .priceBothLeft {
+    font-size: 8px;
+  }
+  .product {
+    height: 600px;
+  }
+  .marginBottom300 {
+    margin-bottom: 500px;
+  }
+}
